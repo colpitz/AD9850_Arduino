@@ -15,5 +15,8 @@ Control del DDS AD9850 con teclado y encoder rotativo, presentacion de datos en 
 Alternativamente control y presentación de datos con Android en Processing.
 
 Librerias necesarias:
-<SoftwareSerial.h> para control de Bluetooth atraves de los pines 12,13
+<SoftwareSerial.h> Para control de Bluetooth atraves de los pines 12,13
 y poder dejar libre el puerto de comunicaciones del Arduino para presentacion de datos en el PC
+
+<Keypad.h> Para el control del teclado Matricial 4x4
+
