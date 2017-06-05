@@ -8,7 +8,7 @@ Bluetooth - Rx -> (13 Tx Arduino), Tx -> (12 Rx arduino).
 Encoder - SW -> ()  DT -> () CLK -> ().
 Keyboard - (4, 5, 6, 7) (8, 9, 10,11).
 Display LCD I2C - (A4), (A5).
-AD9850 - Serial W_CLOCK -> (A3), Serial FQ_UD -> (A2), Serial Data [D7] -> (A1), D7 -> (A1)
+AD9850 - Serial W_CLOCK -> (A3), Serial FQ_UD -> (A2), Serial Data [D7] -> (A1), D7 -> (A0)
 
 Descripción:
 Control del DDS AD9850 con teclado y encoder rotativo, presentacion de datos en LCD
