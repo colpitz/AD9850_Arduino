@@ -18,10 +18,11 @@ char keys[ROWS][COLS] = {
 };
 
 //AD9850 DDS
-const int W_CLK = 2;
-const int FQ_UD = 3; 
-const int DATA = 4;
-const int RESET = 5;
+const int W_CLK = A3;
+const int FQ_UD = A2;
+//const int SerialData = A1;
+const int DATA = A0;
+//const int RESET = ?? ;
 double freq = 1000000;
 DDS dds(W_CLK, FQ_UD, DATA, RESET);
 
@@ -29,9 +30,9 @@ DDS dds(W_CLK, FQ_UD, DATA, RESET);
 SoftwareSerial BT1(12,13); // RX, TX recordar que se cruzan
 
 // Encoder
-int aPin = 6;
-int bPin = 7;
-int buttonPin = 5;
+int aPin = 5;
+int bPin = 6;
+int buttonPin = 4;
 int state = 0;
 
 void setup() {
